@@ -34,6 +34,7 @@ jobs:
          # <docker_hub_username/docker-hub-password:version>.
           name: Build Docker image
           command: docker build -t venprak/hello-world-sample:v1 .
+                    docker run venprak/hello-world-sample:v1
 
       - run:
         # Pushes the Docker image you created to the Docker Hub.
