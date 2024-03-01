@@ -3,8 +3,8 @@ kind: Component
 metadata:
   name: hello-world-sample
   annotations:
-    github.com/project-slug: venprak/hello-world-sample
+    circleci.com/project-slug: github/venprak/hello-world-sample
 spec:
   type: service
-  lifecycle: unknown
+  lifecycle: experimental
   owner: guests
