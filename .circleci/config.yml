@@ -44,10 +44,5 @@ jobs:
             docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
             docker push venprak/hello-world-sample:v1
 
-       - run:
-          # Deploy and run docker Hello World
-            name: Run Hello World
-            command: docker run venprak/hello-world-sample:v1
-            
         
             
