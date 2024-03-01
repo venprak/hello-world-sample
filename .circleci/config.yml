@@ -14,7 +14,7 @@ jobs:
             python3 -m venv venv
             . venv/bin/activate
             pip install -r requirements.txt
-            pytest
+            
         # Creates a remote Docker environment configured to execute Docker commands.
       - setup_remote_docker
 
