@@ -41,6 +41,6 @@ jobs:
         # <docker_hub_username/docker-hub-password:version> you used to build the image above
           name: Push to Docker Hub
           command: |
-            docker login -u username -p password
+            docker login -u ${DOCKER_USER} -p ${DOCKER_PASS}
             docker push venprak/hello-world-sample:v1
             
