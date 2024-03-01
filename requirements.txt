@@ -4,3 +4,4 @@ PyJWT==2.3.0
 python-apt==2.4.0+ubuntu3
 PyYAML==5.4.1
 systemd-python==234
+pytest == 2.9.1
