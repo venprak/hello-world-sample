@@ -3,6 +3,7 @@ kind: Component
 metadata:
   name: hello-world-sample
   annotations:
+    circleci.com/project-slug: venprak/hello-world-sample
     github.com/project-slug: venprak/hello-world-sample
 spec:
   type: service
