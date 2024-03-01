@@ -43,3 +43,4 @@ jobs:
           command: |
             docker login -u username -p password
             docker push venprak/hello-world-sample:v1
+            
